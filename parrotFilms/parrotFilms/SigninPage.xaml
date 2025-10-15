@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="parrotFilms.SigninPage"
+             Title="Crear una Cuenta">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                x:Name="SigninTitle"
+                Text="Creación de Cuenta"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Creación de cuenta"/>
+            <Label
+                x:Name="userLabel"
+                Text="Usuario"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Ingresa tu Usuario"
+                FontSize="16"/>
+            <Entry
+                x:Name="userEntry"
+                Placeholder="Usuario"
+                FontSize="20"
+                HorizontalOptions="Fill"
+                CharacterSpacing="2"
+                CursorPosition="5"
+                MaxLength="256"
+                ClearButtonVisibility="WhileEditing"/>
+            <Label
+                x:Name="pwdLabel"
+                Text="Contraseña"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Ingresa tu Contraseña"
+                FontSize="16"/>
+            <Entry
+                x:Name="pwdEntry"
+                Placeholder="Contraseña"
+                SemanticProperties.Description="Ingresa tu Contraseña"
+                FontSize="20"
+                HorizontalOptions="Fill"
+                CharacterSpacing="2"
+                CursorPosition="5"
+                MaxLength="128"
+                MinimumHeightRequest="8"
+                IsPassword="True"
+                ClearButtonVisibility="WhileEditing"/>
+            <Button
+                x:Name="SigninBtn"
+                Text="Registrarse"
+                SemanticProperties.Description="Registrarse"
+                HorizontalOptions="Fill"
+                Clicked="OnSigninClicked"/>
+            <Button
+                x:Name="CancelBtn"
+                Text="Cancelar"
+                SemanticProperties.Description="Cancelar"
+                HorizontalOptions="Fill"
+                Clicked="OnCancelClicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

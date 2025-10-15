@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="parrotFilms.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                x:Name="loginLabel"
+                Text="Inicio de Sesión"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1"
+                SemanticProperties.Description="Inicio de Sesión"/>
+
+            <Label
+                x:Name="userLabel"
+                Text="Usuario"
+                FontSize="16"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="usuario" />
+
+            <Entry
+                x:Name="userEntry"
+                Placeholder="Usuario"
+                CharacterSpacing="2"
+                MaxLength="256"
+                CursorPosition="5"
+                SemanticProperties.Description="Escribe Tu Usuario"
+                FontSize="20"
+                HorizontalOptions="Fill"
+                ClearButtonVisibility="WhileEditing"/>
+
+            <Label
+                x:Name="pwdLabel"
+                Text="Contraseña"
+                FontSize="16"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Contraseña" />
+
+            <Entry
+                x:Name="pwdEntry"
+                Placeholder="Contraseña"
+                CharacterSpacing="2"
+                MaxLength="128"
+                MinimumHeightRequest="8"
+                CursorPosition="5"
+                SemanticProperties.Description="Escribe Tu Contraseña"
+                FontSize="20"
+                HorizontalOptions="Fill"
+                IsPassword="True"
+                ClearButtonVisibility="WhileEditing"/>
+            
+            <Button
+                x:Name="loginBtn"
+                Text="iniciar Sesión"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnLoginClicked"
+                HorizontalOptions="Fill"/>
+            <Button
+                x:Name="signinBtn"
+                Text="Crear una Cuenta"
+                SemanticProperties.Hint="Crear una cuenta"
+                Clicked="OnSigninClicked"
+                HorizontalOptions="Fill"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = parrotFilms
+build_property.ProjectDir = C:\Users\Gris\Desktop\personal\escuela\extraordinarios\dam1\parrotFilms\parrotFilms\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/DetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.DetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DetailsPage.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/moviesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.moviesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = moviesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = moviesPage.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Gris/Desktop/personal/escuela/extraordinarios/dam1/parrotFilms/parrotFilms/SigninPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = parrotFilms.SigninPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SigninPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SigninPage.xaml

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="parrotFilms.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:parrotFilms"
+    Title="parrotFilms">
+
+    <ShellContent
+        Title="Inicio de Sesión"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Title="Movies"
+        ContentTemplate="{DataTemplate local:moviesPage}"
+        Route="moviesPage"/>
+    <ShellContent
+        Title="Crear una Cuenta"
+        ContentTemplate="{DataTemplate local:SigninPage}"
+        Route="SigninPage"/>
+    <ShellContent
+        Title="Detalles"
+        ContentTemplate="{DataTemplate local:DetailsPage}"/>
+</Shell>

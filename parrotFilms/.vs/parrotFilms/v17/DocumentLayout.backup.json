@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gris\\Desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotFilms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE68675B-79F6-4B64-B7E5-49F0383079E8}|parrotFilms\\parrotFilms.csproj|c:\\users\\gris\\desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotfilms\\parrotfilms\\apiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE68675B-79F6-4B64-B7E5-49F0383079E8}|parrotFilms\\parrotFilms.csproj|solutionrelative:parrotfilms\\apiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE68675B-79F6-4B64-B7E5-49F0383079E8}|parrotFilms\\parrotFilms.csproj|c:\\users\\gris\\desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotfilms\\parrotfilms\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE68675B-79F6-4B64-B7E5-49F0383079E8}|parrotFilms\\parrotFilms.csproj|solutionrelative:parrotfilms\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Gris\\Desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotFilms\\parrotFilms\\ApiConnection.cs",
+              "RelativeDocumentMoniker": "parrotFilms\\ApiConnection.cs",
+              "ToolTip": "C:\\Users\\Gris\\Desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotFilms\\parrotFilms\\ApiConnection.cs",
+              "RelativeToolTip": "parrotFilms\\ApiConnection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T01:28:36.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Gris\\Desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotFilms\\parrotFilms\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "parrotFilms\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Gris\\Desktop\\personal\\escuela\\extraordinarios\\dam1\\parrotFilms\\parrotFilms\\MauiProgram.cs",
+              "RelativeToolTip": "parrotFilms\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T01:26:49.4Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
